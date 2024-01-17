@@ -16,6 +16,13 @@ def writecsv(filename, the_list):
     a.writerows(the_list)
 
 
-##  import
+####
+import usecsv
+os.chdir(r'C:\Users\user\python)
+a = [['국어', '영어','수학'],[99,99,77]]
+usecsv.writecsv('test.csv', a)
 
+
+
+###
 
